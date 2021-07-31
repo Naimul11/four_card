@@ -60,6 +60,10 @@ img{
     border-top: 5px solid hsl(0, 78%, 62%);
     margin-bottom: 2rem;
 }
+.team img{
+    position: relative;
+    bottom:-15px;
+}
 .karma{
     border-top: 5px solid hsl(34, 97%, 64%);
     margin-bottom: 2rem;
