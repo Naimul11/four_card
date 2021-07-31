@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+body{
+    max-width: 415px;
+    min-width: 350px;
+    background: hsl(0, 0%, 100%);
+    margin:auto ;
+}
+.main{
+    margin:5rem 0 ;
+    width:calc(100% - 1rem);
+    padding: 0;
+    color: hsl(229, 6%, 66%); ;
+}
+header{
+    margin: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+.trust{
+    font-size:2rem;
+    font-weight: 400;
+}
+.bio{
+    font-size:17px;
+}
+/* ==================
+   ##box
+   ==================
+*/
+main{
+    padding-top: 2rem;
+    
+}
+.ads{
+    margin: 1rem;
+    padding: 1rem;
+    height: 14rem;
+    font-size:17px;
+    box-shadow: 2px 10px 15px 5px hsl(0, 0%, 95%);
+    border-radius: .5rem;
+}
+img{
+    position: relative;
+    right:-75%;
+    bottom:-2rem;
+}
+
+.supervisor img,
+.karma img{
+    position: relative;
+    right:-75%;
+    bottom:-2.5rem;
+}
+.supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin-bottom: 2rem;
+}
+.team{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 2rem;
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-bottom: 2rem;
+}
+.calc{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-bottom: 2rem;
+}
