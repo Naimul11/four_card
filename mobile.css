@@ -49,15 +49,9 @@ main{
 img{
     position: relative;
     right:-75%;
-    bottom:-2rem;
+    bottom:-25px;
 }
 
-.supervisor img,
-.karma img{
-    position: relative;
-    right:-75%;
-    bottom:-2.5rem;
-}
 .supervisor{
     border-top: 5px solid hsl(180, 62%, 55%);
     margin-bottom: 2rem;
